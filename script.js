@@ -1,5 +1,4 @@
 const seaBtn = document.querySelector("#searchBtn");
-// const icon = document.querySelector("#icon");
 
 seaBtn.addEventListener("click", function () {
   const inputDat = document.querySelector("#inputData").value;
@@ -40,7 +39,7 @@ function updateUI(data) {
 
   document.createElement;
   if (condition.includes("Sunny") || condition.includes("clear")) {
-    icon.src = "Assests/sunny.png";
+    icon.src = "Assests/sunny.png ";
   } else if (
     condition.includes(" cloud") ||
     condition.includes("Overcast") ||
